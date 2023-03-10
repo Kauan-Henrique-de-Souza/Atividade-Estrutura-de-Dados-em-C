@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Campeões da Copa do mundo\n\n");
+    
+    /*Declaração das variáveis*/
+    
+    int Brasil = 5;
+    int Italia = 4;
+    int Alemanha = 4;
+    int Argentina = 3;
+    int Uruguai = 2;
+    int Franca = 2;
+    int Espanha = 1;
+    
+    /*Endereço de cada variável*/
+    
+    printf("\nEndereço de cada variável\n");
+    
+    printf("\nEndereço do Brasil ----> %p.\n",&Brasil);
+    printf("Endereço da Italia ----> %p.\n",&Italia);
+    printf("Endereço da Alemanha ----> %p.\n",&Alemanha);
+    printf("Endereço da Argentina ----> %p.\n",&Argentina);
+    printf("Endereço do Uruguai ----> %p.\n",&Uruguai);
+    printf("Endereço da França ----> %p.\n",&Franca);
+    printf("Endereço da Espanha ----> %p.\n",&Espanha);
+    
+    /*Vetores (array)*/
+    
+    int paises [] = {Brasil,Italia,Alemanha,Argentina,Uruguai,Franca,Espanha};
+    
+    /*Valores das variáveis*/
+    
+    printf("\nSeleções e suas vitórias\n");
+    
+    printf("\nBrasil:%d", paises[0]);
+    printf("\nItália:%d", paises[1]);
+    printf("\nAlemanha:%d", paises[2]);
+    printf("\nArgentina:%d", paises[3]);
+    printf("\nUruguai:%d", paises[4]);
+    printf("\nFrança:%d", paises[5]);
+    printf("\nEspanha:%d\n", paises[6]);
+    
+    return 0;
+}
+
